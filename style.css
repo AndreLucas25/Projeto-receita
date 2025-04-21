@@ -5,6 +5,7 @@
 
 :root{
   font-family: "Alice", sans-serif;
+  line-height: 150%;
   color: #573A37;
 }
 
@@ -15,6 +16,7 @@ body{
 
 main{
   padding: 24px;
+  box-sizing: border-box;
 }
 
 section + section{
@@ -24,7 +26,7 @@ section + section{
 #page{
   box-sizing: border-box;
   width: 800px;
-  height: 1440px;
+  height: 1480px;
   padding: 24px;
   background-color: #F0E8C2;
   border-radius: 24px;
@@ -36,22 +38,29 @@ section + section{
 h1{
   font-size: 40px;
   line-height: 140%;
-  margin-bottom: 4px;
 }
 
 #about p + p{
-  margin: 12px;
+  margin-top: 12px;
 }
 
 h2{
   font-size: 24px;
 }
 
+ul{
+  padding-left: 24px;
+}
+
 h1, h2{
   color: #291B1A;
   margin-bottom: 4px;
+  line-height: 150%;
 }
 
+#preparation{ 
+  padding-bottom: 24px;
+}
 
 footer{
   color: #F0E8C2;
