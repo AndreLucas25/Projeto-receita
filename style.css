@@ -1,3 +1,8 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
 :root{
   font-family: "Alice", sans-serif;
   color: #573A37;
@@ -6,6 +11,14 @@
 body{
   background-image: url(assets/bg-image.jpg);
   background-size: cover;
+}
+
+main{
+  padding: 24px;
+}
+
+section + section{
+  padding-top: 24px;
 }
 
 #page{
@@ -23,6 +36,11 @@ body{
 h1{
   font-size: 40px;
   line-height: 140%;
+  margin-bottom: 4px;
+}
+
+#about p + p{
+  margin: 12px;
 }
 
 h2{
@@ -31,6 +49,7 @@ h2{
 
 h1, h2{
   color: #291B1A;
+  margin-bottom: 4px;
 }
 
 
